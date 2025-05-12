@@ -21,6 +21,10 @@
     padding: 20px;
 }
 
+.ptop-15 {
+    padding-top: 15px;   
+}
+
 .m-y {
     margin: 30px 0;
 }
@@ -35,8 +39,6 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
-
 
 /* BODY */
 
@@ -58,15 +60,18 @@
     background-image: url(../img/cork.png);
 }
 
+
+/* card */
 .card {
     background-color: aliceblue;
     border: 1px solid black;
     width: calc(100% / 3) - 10px;
     gap: 10px;
     margin-bottom: 30px;
+    position: relative;
 }
 
-.card > img {
+.img-card {
     height: 300px;
     width: 300px;
     object-fit: contain;
@@ -78,11 +83,16 @@
     color: rgb(175, 174, 174);
 }
 
-.square {
-    /* debug */
-    height: 100px;
-    width: 100px;
-    background-color: blueviolet;
+.card-title {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.pin {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%)
 }
 
 
