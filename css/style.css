@@ -36,10 +36,6 @@
     padding-bottom: 50px;
 }
 
-.paragraph-p-card {
-    padding-bottom: 20px;
-}
-
 
 
 /* BODY */
@@ -68,6 +64,18 @@
     width: calc(100% / 3) - 10px;
     gap: 10px;
     margin-bottom: 30px;
+}
+
+.card > img {
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+}
+
+.card-date {
+    font-family: 'Sometype Mono', monospace;
+    font-size: 15px;
+    color: rgb(175, 174, 174);
 }
 
 .square {
