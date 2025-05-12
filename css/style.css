@@ -9,3 +9,72 @@
     margin: 0 auto;
 }
 
+/* Utilities */
+
+.flex-wrap-j-space-b {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.p-xy {
+    padding: 20px;
+}
+
+.m-y {
+    margin: 30px 0;
+}
+
+/* Common */
+
+.font-site {
+    font-family: 'Edu Tas Beginner', sans-serif;
+}
+
+.p-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.paragraph-p-card {
+    padding-bottom: 20px;
+}
+
+
+
+/* BODY */
+
+/* Header */
+
+.header {
+    background-image: url(../img/wall.png);
+    height: 100px;
+}
+
+.header-title {
+    font-size: 80px;
+    text-align: center;
+}
+
+/* Main */
+
+.bg-main {
+    background-image: url(../img/cork.png);
+}
+
+.card {
+    background-color: aliceblue;
+    border: 1px solid black;
+    width: calc(100% / 3) - 10px;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.square {
+    /* debug */
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+}
+
+
