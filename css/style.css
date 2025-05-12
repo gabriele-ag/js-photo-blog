@@ -11,10 +11,11 @@
 
 /* Utilities */
 
-.flex-wrap-j-space-b {
+.flex {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 25px;
 }
 
 .p-xy {
@@ -46,7 +47,8 @@
 
 .header {
     background-image: url(../img/wall.png);
-    height: 100px;
+    height: 150px;
+    padding: 20px 0;
 }
 
 .header-title {
@@ -65,16 +67,12 @@
 .card {
     background-color: aliceblue;
     border: 1px solid black;
-    width: calc(100% / 3) - 10px;
-    gap: 10px;
-    margin-bottom: 30px;
+    width: calc((100% - 25px) / 4);
     position: relative;
 }
 
 .img-card {
-    height: 300px;
-    width: 300px;
-    object-fit: contain;
+    max-width: 100%;
 }
 
 .card-date {
@@ -84,7 +82,7 @@
 }
 
 .card-title {
-    font-size: 25px;
+    font-size: 20px;
     text-transform: uppercase;
 }
 

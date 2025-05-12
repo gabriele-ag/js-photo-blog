@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+    .card {
+    width: calc((100% - 25px) / 2);
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .card {
+    width: 100%;
+    }
+
+    .header-title {
+    font-size: 70px;
+    text-align: center;
+    }
+}
