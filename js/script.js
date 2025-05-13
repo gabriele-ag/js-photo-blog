@@ -1,4 +1,3 @@
-// console.log("ciao")
 // Estraggo elementi del DOM
 const elemCard = document.querySelector("#card-block")
 const elemOverlay = document.querySelector(".overlay")
@@ -41,7 +40,7 @@ axios
                                             
                 elemOverlay.style.display = "flex";
 
-                // Aggiungo l'evento per chiudere l'overlay
+            // Aggiungo l'evento per chiudere l'overlay
             const elemBtn = document.querySelector("#btn")
             elemBtn.addEventListener("click", (evento) => {
                 evento.preventDefault();
