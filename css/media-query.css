@@ -2,6 +2,10 @@
     .card {
     width: calc((100% - 25px) / 2);
     }
+
+    .overlay > img {
+        max-width: 70%;
+    }
 }
 
 @media screen and (max-width: 425px) {
