@@ -84,7 +84,7 @@ img {
 .card:hover {
     cursor: pointer;
     background-color: rgb(252, 249, 214);
-    transform: rotate(25deg) scale(1.2);
+    transform: rotate(10deg) scale(1.2);
     z-index: 1;
 }
 
